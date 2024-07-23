@@ -1,0 +1,36 @@
+#head{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    align-self: center;
+    margin-left: 150px;
+    
+}
+.center{
+    display: flex;
+    gap: 5px; 
+    margin-top: 5px;
+    align-self: center;
+    
+}
+.button-flex2{
+    display: inline;
+}
+#view{
+    background-color: beige;
+    font-family: Jazz LET, fantasy;
+    margin-left: 10px;
+}
+#edit{
+    background-color:navajowhite;
+    font-family: Jazz LET, fantasy;
+    margin-left: 10px;
+
+}
+.banner-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 10px; 
+  }

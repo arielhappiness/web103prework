@@ -1,0 +1,94 @@
+.edit-creator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%; 
+    background-color: #f9f9f9; 
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+.edit-creator-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #89a3be;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-creator-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .edit-creator-form label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-creator-form input,
+  .edit-creator-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-creator-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .edit-creator-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .edit-creator-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-creator-form button:active {
+    background-color: #004085;
+  }
+  
+  .edit-creator-form .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .edit-creator-form .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .edit-creator-form .delete-button:active {
+    background-color: #bd2130;
+  }
+
+  edit-creator-form .cancel-button {
+    background-color: rgb(139, 223, 139);
+  }
+  
+  .edit-creator-form .cancel-button:hover {
+    background-color: rgb(84, 215, 84);
+  }
+  
+  .edit-creator-form .cancel-button:active {
+    background-color: rgb(32, 74, 32);
+  }

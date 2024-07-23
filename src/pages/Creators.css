@@ -1,0 +1,135 @@
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+#head{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+    margin: 20px 0;
+}
+.ul-container{
+    display: inline-flex;
+    padding: 5px;
+    margin: auto;
+    flex-wrap: wrap
+
+}
+.list{
+    margin: 3%;
+    background-color: black;
+    width: 120%;
+    flex-wrap: wrap
+}
+
+.game-card {
+    background-color: gray;
+    padding: 1%;
+    margin: 3%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+    flex-wrap: wrap
+    
+}
+.creator-img{
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+    display: flex;
+
+}
+
+.creator-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .edit-creator-info {
+  
+    flex-direction: column;
+    justify-content: center;
+  }
+  .edit-page{
+    display: flex;
+  flex-direction: column; /* 使内容垂直排列 */
+  align-items: center; /* 水平居中对齐 */
+  justify-content: center; /* 垂直居中对齐 */
+  min-height: 100vh; /* 让页面占满整个视口高度 */
+  padding: 20px;
+  box-sizing: border-box;
+  /* background-color: #f9f9f9; 可选：设置背景颜色 */
+  }
+  .edit-page-content{
+    display: flex;
+  align-items: flex-start; /* 垂直对齐顶部 */
+  align-content: center;
+  gap: 20px; /* 图片和说明之间的间距 */
+  /* background: white; */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  }
+  .txt1{
+    display: inline-block;
+    width: auto;
+    text-align: right;
+    margin: 5%;
+    font-family: fantasy;
+  }
+  .textbox{
+    margin-top: 3%;
+    width: 200px;
+    height: 300px;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .margin-right{
+    margin-right: 3px;
+
+  }
+  .photo-URL{
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f9f9f9; 可选：设置背景颜色 */
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 左对齐输入框和标签 */
+    gap: 15px; /* 每个表单组之间的间距 */
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 左对齐输入框和标签 */
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
