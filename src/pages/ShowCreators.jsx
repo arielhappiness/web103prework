@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { supabase } from '../Client';
 import Card from '../components/Card';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const ShowCreators = () => {
   const [creators, setCreators] = useState([]);
@@ -22,6 +23,26 @@ const ShowCreators = () => {
     await supabase.from('creators').delete().eq('name', name);
     setCreators(creators.filter((creator) => creator.name !== name));
   };
+
+  const containerVariants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        staggerChildren: 0.5,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+    transition: {
+        duration: 1.5, // Adjust this for slower animation
+      }
+  };
+
   
   return (
     <div>
@@ -39,12 +60,15 @@ const ShowCreators = () => {
         <p>No creators found. Please add a creator.</p>
       ) :(
         
-      <ul className="ul-container">
+      <motion.ul className="ul-container"
+      variants={containerVariants}
+            initial="hidden"
+            animate="visible">
       {creators.map((creator) => (
-        <oi className ="game-card" key={creator.name}>
+        <motion.oi className ="game-card" key={creator.name} variants={itemVariants}>
         <Card key={creator.name} creator={creator} onDelete={deleteCreator} />
-        </oi>
-      ))}</ul>
+        </motion.oi>
+      ))}</motion.ul>
       )}
     </div>
     </div>

@@ -7,16 +7,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faInstagram, faTwitter, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import './CreatorsCard.css';
 
+
 const Card = ({ creator, onDelete }) => {
   const handleDelete = () => {
     onDelete(creator.name);
   };
 
+
   return (
     <div className="game-cards">
       <img className ="game-img" src={creator.photoURL} alt={creator.name} />
       <h2><Link className='black' to={`/creators/${creator.name}`}>{creator.name}</Link></h2>
-      <p>{creator.description}</p>
+      <p className='paragraph'>{creator.description}</p>
       
       <div >
       <a className="creator-url" href={creator.url} target="_blank" rel="noopener noreferrer">

@@ -111,3 +111,9 @@ button{
   .black{
     color: black;
   }
+
+  .paragraph{
+    text-align: left;
+    /* font-family: fantasy; */
+    font-style: oblique;
+  }

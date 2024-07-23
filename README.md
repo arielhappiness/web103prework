@@ -29,12 +29,13 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] 1.I put several SNS Icon(such as youtube, instrgram, twitter(X) and tictok) on ShowCreators ans ViewCreator page, users can click each icon to go to the certain SNS account.
+2. I take an advantage of "motion" function from "frame-motion" library, which helps all the creators to fly into the content when users go to the Home page(Showing all the creators).
 
 ## Video Walkthrough
 
 Here's walkthroughes of implemented required features:
 
-0. Web walk through in a whole process:
+0. Web walk throughes of implemented required features in a whole process:
 https://i.imgur.com/tDWjijM.gif
 
 1. View all creators in the default page
@@ -65,6 +66,10 @@ https://i.imgur.com/tDWjijM.gif
 6. Click the SNS icon, navigating users to the certain SNS account.
 
 <img src='https://i.imgur.com/2DAh1y7.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
+
+7. Additional features- cards flying into the Content: 
+
+<img src='https://i.imgur.com/VtMV28N.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 
 
