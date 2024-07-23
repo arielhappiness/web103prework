@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's walkthroughes of implemented required features:
 
-0. Web walk through:
+0. Web walk through in a whole process:
 https://i.imgur.com/tDWjijM.gif
 
 1. View all creators in the default page
