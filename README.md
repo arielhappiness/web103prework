@@ -43,11 +43,12 @@ Here's walkthroughes of implemented required features:
 
 <img src='https://i.imgur.com/XOSqdkQ.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
-2-b:add a creator with all the information.
+<!-- 2-b:add a creator with all the information.
 
-<img src='https://i.imgur.com/m3m1wGc.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/m3m1wGc.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' /> -->
 
 3.view a creator'detail:
+
 <img src='https://i.imgur.com/zsS1Zei.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 4. edit a creator:
