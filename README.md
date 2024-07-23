@@ -28,11 +28,14 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x]1.I put several SNS Icon(such as youtube, instrgram, twitter(X) and tictok) on ShowCreators ans ViewCreator page, users can click each icon to go to the certain SNS account.
+- [x] 1.I put several SNS Icon(such as youtube, instrgram, twitter(X) and tictok) on ShowCreators ans ViewCreator page, users can click each icon to go to the certain SNS account.
 
 ## Video Walkthrough
 
 Here's walkthroughes of implemented required features:
+
+0. Web walk through:
+https://i.imgur.com/tDWjijM.gif
 
 1. View all creators in the default page
 
