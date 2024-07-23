@@ -35,27 +35,32 @@ The following **additional** features are implemented:
 Here's walkthroughes of implemented required features:
 
 1. View all creators in the default page
+
 👉🏿<img src='https://i.imgur.com/PyhNgy4.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 2.Add creators
 2-a:add a creator with name, youtube and description.
+
 <img src='https://i.imgur.com/XOSqdkQ.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
-2-b:add a creator with all the information
+2-b:add a creator with all the information.
+
 <img src='https://i.imgur.com/m3m1wGc.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 3.view a creator'detail:
 <img src='https://i.imgur.com/zsS1Zei.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 4. edit a creator:
+
 <img src='https://i.imgur.com/xqKkdOB.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 5. delete a creator:
 
 <img src='https://i.imgur.com/XrtBAj5.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
-6. Click the SNS icon, navigating users to the certain SNS account.  
-    <img src='https://i.imgur.com/2DAh1y7.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
+6. Click the SNS icon, navigating users to the certain SNS account.
+
+<img src='https://i.imgur.com/2DAh1y7.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 
 
@@ -76,7 +81,7 @@ While constructing the app, the most difficult thing is to make the form formall
 Clone the project
 
 ```bash
-  git clone 
+  git clone https://github.com/arielhappiness/web103prework
 ```
 
 Go to the project directory
