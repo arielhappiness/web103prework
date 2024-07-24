@@ -30,7 +30,7 @@ const ShowCreators = () => {
       opacity: 1,
       x: 0,
       transition: {
-        staggerChildren: 0.4,
+        staggerChildren: 0.5,
       },
     },
   };
