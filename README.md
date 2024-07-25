@@ -4,7 +4,7 @@ Submitted by: Ariel Williams
 
 About this web app: The Website presents information about famous Kpop idols groups, and links to their official youtube channel and SNS accounts.
 
-Time spent: 15 hours
+Time spent: 10 hours
 
 ## Required Features
 
